@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RaceStartListItem/> should matches the snapshot 1`] = `
+<div>
+  <h5>
+    start number: 
+    1
+  </h5>
+  <h5>
+    horse name: 
+    Lani Kai Beach
+  </h5>
+  <h5>
+    driver first name: 
+    J N
+     
+    Douglass
+  </h5>
+  <h5>
+    horse father: 
+    Camlach
+  </h5>
+</div>
+`;

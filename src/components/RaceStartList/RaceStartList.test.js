@@ -1,19 +1,21 @@
 /* global describe, it, jest, expect*/
 import {shallow} from "enzyme"
-import {GameDetailPreview} from "./"
+import {RaceStartList} from "./"
 import React from "react"
 import renderer from "react-test-renderer"
 import {MemoryRouter} from "react-router-dom"
 import game from "../../backend/game"
 
-describe('<GameDetailPreview/>', () => {
-   const gameData = game;
+describe('<RaceStartList/>', () => {
+
+   const startList = game.races[0].starts;
+
    it('should render without crashing', () => {
-      shallow(<GameDetailPreview gameData={gameData}/>)
+      shallow(<RaceStartList startList={startList}/>)
    });
 
    it('should matches the snapshot', () => {
-      const tree = renderer.create(<MemoryRouter><GameDetailPreview gameData={gameData}/></MemoryRouter>).toJSON();
+      const tree = renderer.create(<MemoryRouter><RaceStartList startList={startList}/></MemoryRouter>).toJSON();
       expect(tree).toMatchSnapshot()
    });
 });

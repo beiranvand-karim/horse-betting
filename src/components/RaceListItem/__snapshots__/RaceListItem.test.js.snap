@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RaceListItem/> should matches the snapshot 1`] = `
+<div>
+  <h4>
+    race number: 
+    3
+  </h4>
+  <h4>
+    race startTime: 
+    2019-04-04T10:03:38
+  </h4>
+  <div>
+    <h5>
+      start number: 
+      1
+    </h5>
+    <h5>
+      horse name: 
+      Lani Kai Beach
+    </h5>
+    <h5>
+      driver first name: 
+      J N
+       
+      Douglass
+    </h5>
+    <h5>
+      horse father: 
+      Camlach
+    </h5>
+  </div>
+  <div>
+    <h5>
+      start number: 
+      2
+    </h5>
+    <h5>
+      horse name: 
+      The Bellum
+    </h5>
+    <h5>
+      driver first name: 
+      Renata
+       
+      Furina
+    </h5>
+    <h5>
+      horse father: 
+      Union Guy
+    </h5>
+  </div>
+  <div>
+    <h5>
+      start number: 
+      3
+    </h5>
+    <h5>
+      horse name: 
+      Luke By Knight
+    </h5>
+    <h5>
+      driver first name: 
+      Lachie
+       
+      Manzelmann
+    </h5>
+    <h5>
+      horse father: 
+      Live Or Die
+    </h5>
+  </div>
+  <div>
+    <h5>
+      start number: 
+      4
+    </h5>
+    <h5>
+      horse name: 
+      Clementsorrell
+    </h5>
+    <h5>
+      driver first name: 
+      W H
+       
+      Rixon
+    </h5>
+    <h5>
+      horse father: 
+      Totally Ruthless
+    </h5>
+  </div>
+  <div>
+    <h5>
+      start number: 
+      5
+    </h5>
+    <h5>
+      horse name: 
+      Vinny Gambini
+    </h5>
+    <h5>
+      driver first name: 
+      T P
+       
+      Mccarthy
+    </h5>
+    <h5>
+      horse father: 
+      Vintage Master
+    </h5>
+  </div>
+  <div>
+    <h5>
+      start number: 
+      6
+    </h5>
+    <h5>
+      horse name: 
+      All Positive
+    </h5>
+    <h5>
+      driver first name: 
+      D R
+       
+      Morris
+    </h5>
+    <h5>
+      horse father: 
+      Armbro Operative
+    </h5>
+  </div>
+  <div>
+    <h5>
+      start number: 
+      7
+    </h5>
+    <h5>
+      horse name: 
+      The Pix
+    </h5>
+    <h5>
+      driver first name: 
+      G W
+       
+      Mcelhinney
+    </h5>
+    <h5>
+      horse father: 
+      Modern Art
+    </h5>
+  </div>
+  <div>
+    <h5>
+      start number: 
+      8
+    </h5>
+    <h5>
+      horse name: 
+      Sals Luck
+    </h5>
+    <h5>
+      driver first name: 
+      Cameron
+       
+      Hart
+    </h5>
+    <h5>
+      horse father: 
+      Ifihadyourluck
+    </h5>
+  </div>
+  <div>
+    <h5>
+      start number: 
+      9
+    </h5>
+    <h5>
+      horse name: 
+      Art I Special
+    </h5>
+    <h5>
+      driver first name: 
+      W H
+       
+      Rixon
+    </h5>
+    <h5>
+      horse father: 
+      Artsplace
+    </h5>
+  </div>
+  <div>
+    <h5>
+      start number: 
+      10
+    </h5>
+    <h5>
+      horse name: 
+      Bara Jayla
+    </h5>
+    <h5>
+      driver first name: 
+      M B
+       
+      Towers
+    </h5>
+    <h5>
+      horse father: 
+      Santanna Blue Chip
+    </h5>
+  </div>
+</div>
+`;
