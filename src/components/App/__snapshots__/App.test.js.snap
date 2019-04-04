@@ -5,5 +5,20 @@ exports[`<App/> should matches the snapshot 1`] = `
   <h1>
     landing page
   </h1>
+  <form
+    action=""
+    onSubmit={[Function]}
+  >
+    <input
+      id="gamedId"
+      name="gamedId"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <button>
+      search
+    </button>
+  </form>
 </div>
 `;

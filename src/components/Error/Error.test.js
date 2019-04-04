@@ -1,17 +1,17 @@
-/* global describe, it, expect, jest*/
+/* global describe, it, jest, expect*/
 import {shallow} from "enzyme"
+import {Error} from "./"
 import React from "react"
-import {LandingPage} from "./"
 import renderer from "react-test-renderer"
 import {MemoryRouter} from "react-router-dom"
 
-describe('<LandingPage/>', () => {
+describe('<Error />', () => {
    it('should render without crashing', () => {
-      shallow(<LandingPage/>)
+      shallow(<Error/>)
    });
 
    it('should matches the snapshot', () => {
-      const tree = renderer.create(<MemoryRouter><LandingPage/></MemoryRouter>).toJSON();
+      const tree = renderer.create(<MemoryRouter><Error/></MemoryRouter>).toJSON();
       expect(tree).toMatchSnapshot()
    });
 });
