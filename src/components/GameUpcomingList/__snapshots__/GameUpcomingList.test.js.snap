@@ -11,6 +11,12 @@ Array [
       start time: 
       2019-04-04T20:14:00
     </h5>
+    <button
+      onClick={[Function]}
+    >
+      +
+    </button>
+    <hr />
   </div>,
   <div>
     <h4>
@@ -21,6 +27,12 @@ Array [
       start time: 
       2019-04-04T20:22:00
     </h5>
+    <button
+      onClick={[Function]}
+    >
+      +
+    </button>
+    <hr />
   </div>,
 ]
 `;

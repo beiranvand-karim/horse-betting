@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GameDetailPreview/> should matches the snapshot 1`] = `
+<h4>
+  game type: 
+  .Game
+</h4>
+`;
