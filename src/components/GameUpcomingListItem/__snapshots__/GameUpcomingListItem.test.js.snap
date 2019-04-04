@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GameUpcomingListItem/> should matches the snapshot 1`] = `
+<div>
+  <h4>
+    id: 
+    V4_2019-04-04_6_6
+  </h4>
+  <h5>
+    start time: 
+    2019-04-04T20:14:00
+  </h5>
+</div>
+`;

@@ -4,6 +4,7 @@ import config from "../../config"
 import Error from "../../components/Error"
 import Loading from "../../components/Loading"
 import games from "../../backend/games"
+import Game from "../../components/Game"
 
 export class LandingPage extends Component {
    constructor(props) {
@@ -24,7 +25,7 @@ export class LandingPage extends Component {
 
    mockBackend() {
       return new Promise((resolve) => {
-         setTimeout(() => resolve(games), 3000)
+         setTimeout(() => resolve(games), 1000)
       })
    }
 
@@ -64,7 +65,6 @@ export class LandingPage extends Component {
 
    render() {
       const {gameId, error, loading, data} = this.state;
-      console.log(data);
       if (error) {
          return <Error error={error}/>
       }
@@ -76,6 +76,9 @@ export class LandingPage extends Component {
       return <div>
          <h1>landing page</h1>
          <SearchGame gameId={gameId} change={this.change} searchGameFormSubmit={this.searchGameFormSubmit}/>
+         {
+            (data) && (<Game data={data}/>)
+         }
       </div>
    }
 }
